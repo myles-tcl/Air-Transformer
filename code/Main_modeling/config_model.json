@@ -1,0 +1,1 @@
+{"attn_depth": [1, 3, 2, 1], "patch_size": [2, 2], "embed_dim": [null, 64, 96, 128], "patchembed": [false, true, true, true], "std": [false, true, true, true], "num_heads": [1, 1, 1, 1], "frame": [8, 4, 2, 1], "channel_attention": [true, true, true, true], "drop": [0.05, 0.05, 0.05]}
