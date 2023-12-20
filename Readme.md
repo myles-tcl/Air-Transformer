@@ -45,10 +45,10 @@ To use the deep learning model framework, follow these steps:
 6. Predict full-coverage surface concentration of labels by *Predicting.py*.
 
 ```
-# Import the model framework
+# Import the model framework, Define your input data shape, number of classes and so on.
 python Config.py
 
-# Define your input data shape and number of classes
+# Calculate the mean and standard deviation of features and labels
 python Calculate_norms.py
 
 # Load dataset for training
